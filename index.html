@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD</title>
+    <link rel="icon" type="image/x-icon" href="./assets/nasa-apod-logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper-container">
+        <aside class="sidebar"> 
+            <div class="line"></div>
+            <div class="text">ASTRONOMY PICTURE OF THE DAY</div>  
+            <button type="button" class="share-button" aria-label="Share">
+                <img src="./assets/share.svg" alt="Share Icon">
+            </button>
+        </aside>
+        <main id="container">
+            
+            <header id="header">
+                <div id="heading-title">
+                    <h1>APOD - DISCOVER THE COSMOS</h1>
+                </div>
+                <div id="contact-form">
+                    <a id="footer-contact" href="./contact-form/index.html"><p>Contact Us</p></a>
+                </div> 
+            </header>
+            
+            <section id="date-form">
+                <form id="fetch-form"> 
+                    <label for="datepicker">Enter Date</label>
+                    <input type="date" id="datepicker" name="date" placeholder="Enter Date">
+                    <button type="submit" id="fetch-image">Get Image</button>
+                </form>
+            </section>
+
+            <section id="fetchedItem">
+                <!-- Fetched content will appear here -->
+            </section>
+        </main>
+    </div>
+    <script src="config.js" defer>config.js</script>
+    <script src="script.js" defer></script>
+</body>
+</html>
