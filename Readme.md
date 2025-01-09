@@ -11,8 +11,6 @@ nasa-X-apod is a simple web application that displays the Astronomy Picture of t
 
 ## Technical Description
 
-### Features
-
 1. **DOM Manipulation and Event Handling**:
     - Utilized JavaScript to dynamically manipulate the Document Object Model (DOM) for creating, updating, and deleting HTML elements.
     - Implemented event listeners to handle user interactions such as clicks, form submissions, and other events to provide a responsive user experience.
