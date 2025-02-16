@@ -35,7 +35,7 @@ nasa-X-apod is a simple web application that displays the Astronomy Picture of t
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/bhaxkar0/nasa-X-apod.git
+    git clone https://github.com/bhaxkar/nasa-X-apod.git
     ```
 2. Navigate to the project directory:
     ```bash
