@@ -27,10 +27,6 @@ nasa-X-apod is a simple web application that displays the Astronomy Picture of t
     - Implemented form validation to ensure that users provide necessary information before submission.
     - Provided user feedback on successful or failed form submissions.
 
-## APP DEMO
-
-![Screenshot](./assets/application-screenshot.png/ "Application Screenshot")
-
 ## Installation ⚙️
 
 1. Clone the repository:
